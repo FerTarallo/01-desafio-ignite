@@ -38,7 +38,6 @@ export function TaskList() {
         isComplete: !task.isComplete
       } : task
     );
-
     setTasks(completedTask);
   }
 
